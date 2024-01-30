@@ -61,3 +61,29 @@ button{
     height: 200px;
     padding: 0 20px 0;
 }
+
+.main{
+    height: 400px;
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw
+}
+
+.box{
+    height: 180px;
+    width: 180px;
+    border: 3px solid blue;
+    border-radius: 14px;
+    display: inline-block;
+}
